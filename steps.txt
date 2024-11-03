@@ -1,0 +1,17 @@
+pip install fastapi
+pip install uvicorn
+
+uvicorn main:app --reload
+    main---> python file
+    app  ---> instance of FASTAPI
+
+
+http://localhost:8000/docs
+    swagger ui
+
+http://localhost:8000/redoc
+    open ai  
+
+create main.py
+
+
